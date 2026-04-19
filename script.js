@@ -27,10 +27,10 @@ const images = [
 
 /* ===== ВИДЕО ФОН ===== */
 const videos = [
-    "https://pub-3e754cbab3e545a593acf1cd6d4fde65.r2.dev/3.mp4",
-    "https://pub-3e754cbab3e545a593acf1cd6d4fde65.r2.dev/2.mp4",
-    "https://pub-3e754cbab3e545a593acf1cd6d4fde65.r2.dev/1.mp4",
-    "https://pub-3e754cbab3e545a593acf1cd6d4fde65.r2.dev/4.mp4"
+    "video/3.mp4",
+    "video/2.mp4",
+    "video/1.mp4",
+    "video/4.mp4"
 ];
 
 /* возможные размеры плиток */
