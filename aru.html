@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aruana Galary</title>
+
+<link rel="stylesheet" href="qqq.css">
+</head>
+<body>
+
+<!-- ФОН С ВИДЕО -->
+<div class="video-bg" id="videoBg"></div>
+
+<div class="ui">
+
+    <div class="text-box">
+        Dear Aruana, <br>
+        I do not know how to properly declare my love. Жүрек қалауы сен болдың. 请不要让阴郁蒙蔽了你. 我爱您。
+    </div>
+
+    <button id="musicBtn">月亮代表我的心 - Teresa Teng</button>
+
+</div>
+
+<audio id="music" src="月亮代表我的心 - Teresa Teng.m4a" loop></audio>
+
+<div class="container">
+
+   <svg viewBox="0 0 512 512" class="heartSVG">
+
+    <defs>
+<clipPath id="heartClip">
+                <path d="
+                    M256 472
+                    C120 360 40 280 40 180
+                    C40 100 100 60 160 60
+                    C210 60 240 90 256 130
+                    C272 90 302 60 352 60
+                    C412 60 472 100 472 180
+                    C472 280 392 360 256 472
+                    Z
+                "/>
+            </clipPath>
+    </defs>
+
+    <!-- отступ чтобы не обрезалось -->
+    <foreignObject x="16" y="16" width="480" height="480" clip-path="url(#heartClip)">
+        <div id="grid"></div>
+    </foreignObject>
+
+</svg>
+</div>
+
+<!-- FULLSCREEN -->
+<div class="modal" id="modal">
+    <img id="modalImg">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
